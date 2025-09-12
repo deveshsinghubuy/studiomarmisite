@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Sec2nd = () => {
   return (
-    <div className='flex justify-center mb-10'>
+    <div className='flex justify-center mb-10 bg-white'>
         <div className='max-w-[1900px] w-full flex justify-center'>
           <div className='w-[88%] mt-10 flex flex-col gap-2 xl:gap-4'>
               <h1 className='text-[22px] 2xl:text-[40px] xl:text-[34px] lg:text-[30px] font-semibold'>Hardness Scale</h1>
