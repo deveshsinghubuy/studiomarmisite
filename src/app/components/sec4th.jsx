@@ -30,7 +30,7 @@ const Sec4th = () => {
     ]
 
   return (
-    <div className='flex justify-center font-poppins bg-white'>
+    <div className='flex justify-center font-poppins bg-white '>
         <div className='max-w-[1900px] w-full flex justify-center'>
             <div className='w-[88%] mt-5 2xl:mt-15 xl:mt-13 lg:mt-10 md:mt-10 flex flex-col  gap-2 2xl:gap-3 xl:gap-2 lg:gap-1.5 md:gap-3'>
                 <h1 className='text-[22px] 2xl:text-[40px] xl:text-[34px] lg:text-[30px] font-semibold'>Stone Finishes – Style & Texture by Studio Marmi</h1>

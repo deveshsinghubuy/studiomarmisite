@@ -50,7 +50,7 @@ const Sec5th = () => {
                                     <div className='bg-black w-full h-0.5' ></div>
                                 </div>
                             </div>
-                            <div className='cursor-pointer'>
+                            <div className='cursor-pointer -z-10'>
                                 <div className='relative'><Image className='w-[12%] 2xl:w-[13%] md:w-[15%] lg:w-[20%] top-4 md:top-6 absolute' src="/images/Arrow2.png" alt='image' width={40} height={40}></Image></div>
                                 <div className='w-10 h-10 md:w-15 md:h-15 relative left-5 xl:left-8 2xl:left-7 rounded-full border border-black'></div>
                             </div>
@@ -67,7 +67,7 @@ const Sec5th = () => {
                                     <div className='bg-black w-full h-0.5' ></div>
                                 </div>
                             </div>
-                            <div className='cursor-pointer'>
+                            <div className='cursor-pointer -z-10'>
                                 <div className='relative'><Image className='w-[12%] 2xl:w-[13%] md:w-[15%] lg:w-[20%] top-4 md:top-6 absolute' src="/images/Arrow2.png" alt='image' width={40} height={40}></Image></div>
                                 <div className='w-10 h-10 md:w-15 md:h-15 relative left-5 xl:left-8 2xl:left-7 rounded-full border border-black'></div>
                             </div>
