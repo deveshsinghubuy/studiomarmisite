@@ -12,12 +12,12 @@ const page = () => {
     <div>
       <Nav></Nav>
       <Sec1st></Sec1st>
-      
+      <Sec5th></Sec5th>
       <Sec2nd></Sec2nd>
       <Sec3rd></Sec3rd>
 
       <Sec4th></Sec4th>
-      <Sec5th></Sec5th>
+      
       <Footer></Footer>
       
     </div>
