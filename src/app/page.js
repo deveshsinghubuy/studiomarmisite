@@ -1,4 +1,5 @@
 import React from 'react'
+import Sec5th from './components/sec5th'
 import Sec4th from './components/sec4th'
 import Sec2nd from './components/sec2nd'
 import Sec3rd from './components/sec3rd'
@@ -16,6 +17,7 @@ const page = () => {
       <Sec3rd></Sec3rd>
 
       <Sec4th></Sec4th>
+      <Sec5th></Sec5th>
       <Footer></Footer>
       
     </div>

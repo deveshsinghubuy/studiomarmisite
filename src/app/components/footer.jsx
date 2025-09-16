@@ -17,11 +17,11 @@ const Footer = () => {
                 <div>
                     <h1>Subscribe to our Newsletter</h1>
                 </div>
-                <div className='bg-white w-[80%] text-[14px] md:text-[16px] lg:w-[28%] flex justify-between rounded-md mb-6'>
+                <div className='bg-white w-[93%] text-[12px] md:text-[16px] lg:w-[28%] flex justify-between rounded-md mb-6'>
                     <input ref={inputRef}  className='w-[80%] outline-none px-4 text-black' type="text" placeholder='Enter your email address'></input>
                     <button onClick={handleClick} className='bg-[#333333] h-full p-4 cursor-pointer rounded-r-sm'>Subscribe</button> 
                 </div>
-                <div className='grid grid-cols-3 md:grid-cols-4  border-t-[1px] border-white md:pt-18 pt-10 lg:p-8 gap-6 md:gap-30'>
+                <div className='grid grid-cols-3 lg:grid-cols-4  border-t-[1px] border-white md:pt-18 pt-10 lg:p-8 gap-6 lg:gap-30'>
                     <div className='flex flex-col gap-3 col-span-3 md:col-span-1'>
                         <h1 className='text-[20px] font-semibold'>About Us</h1>
                         <p className='text-[16px] font-light'>At studiomarmi, we combine craftsmanship with quality to bring your dream spaces to life. Explore our collections and get inspired.</p>

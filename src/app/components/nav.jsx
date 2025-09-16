@@ -1,14 +1,18 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
+import { useState } from 'react'
 
 const Nav = () => {
+
+      const [isOpen, setIsOpen] = useState(false);
   return (
     <div className='flex justify-center relative'>
         <div className='max-w-[1900px] w-full flex justify-center fixed'>
         <nav className='bg-[#CCCCCCCC] w-full py-4 px-2 md:p-4  flex justify-center'>
            <div className='w-[100%] md:w-[90%] flex justify-between'> 
                 <div className='flex items-center w-[60%] md:w-[50%]'>
-                    <div className='w-[90%] xl:w-[32%]  flex'>
+                    <div className='w-[90%] md:w-[70%] lg:w-[55%] xl:w-[32%]  flex'>
                         <Image className='w-[20%]' src='/images/Vector-4.png' alt="image" width={40} height={40} ></Image>
                     
                         <Image  className='w-[70%]' src='/images/Vector.svg' alt="image" width={40} height={40} ></Image>
@@ -25,9 +29,28 @@ const Nav = () => {
                         <Image  src="/images/Vector-1.svg" alt="image" width={25} height={25}></Image>
                         <Image  src="/images/Vector-2.svg" alt="image" width={25} height={25}></Image>
                     </div>
+
+                    <div className="md:hidden">
+                        <button onClick={() => setIsOpen(!isOpen)}>
+                        <Image
+                            src="/images/downArrow.png"
+                            alt="menu"
+                            width={20}
+                            height={20}
+                        />
+                        </button>
+                    </div>
                 </div>
             </div>
         </nav>
+
+        {isOpen && (
+          <div className="absolute top-20 right-4 bg-[#CCCCCCCC] shadow-lg rounded-lg p-4 px-10 flex flex-col gap-4 md:hidden z-50">
+            <Image src="/images/Vector-3.svg" alt="image" width={25} height={25} />
+            <Image src="/images/Vector-1.svg" alt="image" width={25} height={25} />
+            <Image src="/images/Vector-2.svg" alt="image" width={25} height={25} />
+          </div>
+        )}
         </div>
     </div>
   )
