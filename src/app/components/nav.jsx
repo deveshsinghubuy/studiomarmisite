@@ -56,8 +56,9 @@ const Nav = () => {
             <div className='max-w-[1900px] w-full flex justify-center fixed'>
                 <nav className='bg-[#CCCCCCCC] w-full py-4 px-2 md:p-4  flex justify-center'>
                     <div className='w-[100%] md:w-[90%] flex gap-20'> 
-                        <div className='flex items-center w-[60%] md:w-[20%]'>
-                            <div className='w-[90%] 2xl:w-[80%] md:w-[70%] lg:w-[55%] xl:w-[32%]  flex'>
+                        
+                        <div className='flex items-center w-[20%]'>
+                            <div className='w-[85%] flex'>
                                 <Image className='w-[20%]' src='/images/Vector-4.png' alt="image" width={40} height={40}></Image>
                                 <Image className='w-[70%]' src='/images/Vector.svg' alt="image" width={40} height={40}></Image>
                             </div>
