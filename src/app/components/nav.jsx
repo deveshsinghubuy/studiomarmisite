@@ -57,17 +57,17 @@ const Nav = () => {
                 <nav className='bg-[#CCCCCCCC] w-full py-4 px-2 md:p-4  flex justify-center'>
                     <div className='w-[100%] md:w-[90%] flex gap-20'> 
                         
-                        <div className='flex items-center w-[20%]'>
-                            <div className='w-[85%] flex'>
+                        <div className='flex flex-1 items-center'>
+                            <div className='w-[80%] flex'>
                                 <Image className='w-[20%]' src='/images/Vector-4.png' alt="image" width={40} height={40}></Image>
                                 <Image className='w-[70%]' src='/images/Vector.svg' alt="image" width={40} height={40}></Image>
                             </div>
                         </div>
 
-                        <div className='w-[50%]' ref={wrapperRef}>
-                            <div className='bg-white rounded-4xl py-2 px-4 flex justify-between items-center'>
-                                <input className='outline-none px-4 border-r border-neutral-400 w-[90%] text-[18px]' value={input} onChange={handelinput} type='text' placeholder='Search Stones . . .'></input>
-                                <button className='bg-black p-3 rounded-full'><Image src="/images/Vector-3.svg" alt='image' width={20} height={20}></Image></button>
+                        <div className=' flex-2' ref={wrapperRef}>
+                            <div className='bg-white rounded-4xl py-1.5 px-4 flex justify-between items-center'>
+                                <input className='outline-none px-4 border-r border-neutral-400 w-[90%] text-[16px]' value={input} onChange={handelinput} type='text' placeholder='Search Stones . . .'></input>
+                                <button className='bg-black p-3 rounded-full'><Image src="/images/Vector-3.svg" alt='image' width={18} height={18}></Image></button>
                             </div>
                         </div>
 
@@ -89,7 +89,7 @@ const Nav = () => {
                                 ))} 
                             </div>
                         )}
-                        <div className='flex items-center gap-4 md:gap-10'>
+                        <div className='flex-1 flex justify-end items-center gap-4 md:gap-10'>
                             <div className='h-full flex items-center text-white text-shadow-lg font-sans gap-3 pr-4 md:p-0'>
                                 <h1 className='font-bold text-[20px]'>EN</h1>
                                 <div className='w-[3px] font-normal pr-2 text-[30px]'>|</div>

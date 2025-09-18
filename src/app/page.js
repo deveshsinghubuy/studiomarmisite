@@ -6,6 +6,7 @@ import Sec3rd from './components/sec3rd'
 import Nav from './components/nav'
 import Sec1st from './components/sec1st'
 import Footer from './components/footer'
+import Demo from './components/demo'
 
 const page = () => {
   return (
@@ -17,7 +18,7 @@ const page = () => {
       <Sec3rd></Sec3rd>
 
       <Sec4th></Sec4th>
-      
+      <Demo></Demo>
       <Footer></Footer>
       
     </div>
