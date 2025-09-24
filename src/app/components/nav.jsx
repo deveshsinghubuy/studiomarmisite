@@ -1,11 +1,13 @@
 "use client"
 import React, { useState, useRef, useEffect } from 'react'
 import Image from 'next/image'
+import Link from 'next/link';
 
 const Nav = () => {
     const [input, setInput] = useState('');
     const [box, setbox] = useState(false);
     const wrapperRef = useRef(null);
+    const [open, setOpen] = useState(false);
 
     const handelinput = (e) => {
         const value = e.target.value;
@@ -16,6 +18,7 @@ const Nav = () => {
             setbox(true);
         }
     }
+
 
     const boxdata = [
         { img: "/tiles/image 7.svg", title: "Carpets & Rugs Tiles", price: "5000.00", dprice: "7000.00" },
@@ -59,9 +62,29 @@ const Nav = () => {
                         
                         <div className='flex flex-1 items-center'>
                             <div className='w-[90%] lg:w-[80%] flex'>
-                                <Image className='w-12' src='/images/Vector-4.png' alt="image" width={40} height={40}></Image>
+                                <Image className='w-12 cursor-pointer' src='/images/Vector-4.png' alt="image" width={40} height={40} onClick={() => setOpen(!open)}></Image>
                                 <Image className='w-auto' src='/images/Vector.svg' alt="image" width={40} height={40}></Image>
                             </div>
+                            {open &&
+                            <div>
+                                   <div onClick={() => setOpen(false)} className="fixed inset-0 bg-black/50 z-40"></div>
+
+                                     <div className={`fixed top-0 left-0 h-full w-[20%] text-[20px] pl-10 text-black bg-white shadow-2xl shadow-black p-6 box-border grid grid-cols-2 gap-8 z-50 transform transition-transform duration-300 ease-in-out ${
+                                            open ? "translate-x-0" : "-translate-x-full"
+                                        }`}>
+                                        <ul className='flex flex-col gap-5'>
+                                            <li><Link href='/' onClick={()=>setOpen(false)}>Home</Link></li>
+                                            <li><Link href='/blog' onClick={()=>setOpen(false)}>Blog</Link></li>
+                                            <li><Link href='/service' onClick={()=>setOpen(false)}>Service</Link></li>
+                                            <li><Link href='/gallery' onClick={()=>setOpen(false)}>Gallery</Link></li>
+                                            <li><Link href='/list' onClick={()=>setOpen(false)}>List</Link></li>
+                                            <li><Link href='/portfolio' onClick={()=>setOpen(false)}>Portfolio</Link></li>
+                                            <li><Link href='/testimonials' onClick={()=>setOpen(false)}>Testimonials</Link></li>
+                                            <li><Link href='/ourteam' onClick={()=>setOpen(false)}>Our Team</Link></li>
+                                        </ul>
+                                     </div>
+                            </div>
+                            }
                         </div>
 
                         <div className=' flex-2' ref={wrapperRef}>
