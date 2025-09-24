@@ -11,16 +11,13 @@ import Demo from './components/demo'
 const page = () => {
   return (
     <div>
-      <Nav></Nav>
       <Sec1st></Sec1st>
       <Sec5th></Sec5th>
       <Sec2nd></Sec2nd>
-      <Sec3rd></Sec3rd>
-
-      <Sec4th></Sec4th>
       <Demo></Demo>
-      <Footer></Footer>
-      
+
+      <Sec3rd></Sec3rd>
+      <Sec4th></Sec4th>
     </div>
   )
 }

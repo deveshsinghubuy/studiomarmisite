@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono, Poppins, Montserrat } from "next/font/google";
 import "./globals.css";
-
+import Footer from "./components/footer";
+import Nav from "./components/nav";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -34,7 +35,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable}  ${poppins.variable} ${montserrat.variable}  antialiased`}
       >
+        <Nav></Nav>
         {children}
+        <Footer></Footer>
+
       </body>
     </html>
   );

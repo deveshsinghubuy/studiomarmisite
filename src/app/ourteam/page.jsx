@@ -12,17 +12,13 @@ import Sec1ourteam from './component/sec1ourteam'
 const page = () => {
   return (
     <div>
-        <Nav></Nav>
         <Sec1ourteam title="Meet Our Team"></Sec1ourteam>
         <Sec2></Sec2>
         <Sec3ourteam></Sec3ourteam> 
         <Sec4ourteam></Sec4ourteam> 
         <Sec5ourteam></Sec5ourteam> 
         <Sec6ourteam/>
-        <Footer></Footer>
         {/* <FaqClient></FaqClient> */}
-
-
     </div>
   )
 }

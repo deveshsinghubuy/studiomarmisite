@@ -58,12 +58,12 @@ const  Sec6ourteam = () => {
                             </div>
                             <div className=''>
                                 <div className='flex gap-5 h-auto'>
-                                <h3 className='text-[16px] font-semibold'>{item.date}</h3>
-                                <div className='bg-[#333333] w-0.5 my-0.5 '></div> 
-                                <div className='flex gap-2'>
-                                    <h3 className='text-[16px] font-semibold'>{item.commentNO}</h3>                           
-                                    <h3 className='text-[16px] font-semibold'>{item.comment}</h3>             
-                                </div>     
+                                  <h3 className='text-[16px] font-semibold'>{item.date}</h3>
+                                  <div className='bg-[#333333] w-0.5 my-0.5 '></div> 
+                                  <div className='flex gap-2'>
+                                      <h3 className='text-[16px] font-semibold'>{item.commentNO}</h3>                           
+                                      <h3 className='text-[16px] font-semibold'>{item.comment}</h3>             
+                                  </div>     
                                 </div>
                                 <h4 className='text-[16px] font-semibold  mt-5'>{item.des}</h4>
                             </div>

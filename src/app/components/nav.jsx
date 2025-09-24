@@ -59,7 +59,7 @@ const Nav = () => {
                         
                         <div className='flex flex-1 items-center'>
                             <div className='w-[90%] lg:w-[80%] flex'>
-                                <Image className='w-auto' src='/images/Vector-4.png' alt="image" width={40} height={40}></Image>
+                                <Image className='w-12' src='/images/Vector-4.png' alt="image" width={40} height={40}></Image>
                                 <Image className='w-auto' src='/images/Vector.svg' alt="image" width={40} height={40}></Image>
                             </div>
                         </div>

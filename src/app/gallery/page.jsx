@@ -6,10 +6,8 @@ import Sec1ourteam from '../ourteam/component/sec1ourteam'
 const page = () => {
   return (
     <div>
-        <Nav></Nav>
-        <Sec1ourteam title="Our Gallery"></Sec1ourteam>
+        <Sec1ourteam title="Our Gallery" page="Our Gallery"></Sec1ourteam>
         <Sec2gallery></Sec2gallery>
-        <Footer></Footer>
     </div>
   )
 }

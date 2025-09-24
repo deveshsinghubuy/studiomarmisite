@@ -5,7 +5,7 @@ const Sec1ourteam = (prop) => {
   return (
     <div className='flex justify-center'>
         <div className='max-w-[1900px] w-full flex justify-center font-sans'>
-            <div className='w-full h-[500px] lg:h-[800px] flex justify-center items-center bg-[url("/teams/teamSec1st.png")] bg-center bg-cover bg-no-repeat'>
+            <div className='w-full h-[500px] lg:h-[700px] flex justify-center items-center bg-[url("/teams/teamSec1st.png")] bg-center bg-cover bg-no-repeat'>
                 <div className='flex flex-col gap-1 md:gap-3 lg:gap-5 text-center items-center text-white'>
                         <div className='flex justify-center gap-4'>
                             <div className='flex items-center'>
@@ -23,7 +23,7 @@ const Sec1ourteam = (prop) => {
                              <img src="https://d2ati23fc66y9j.cloudfront.net/studiomarmi/contact-us/home-icon.svg" alt="home" />
                                     Home
                              <img src="https://d2ati23fc66y9j.cloudfront.net/studiomarmi/contact-us/arrow-icon.svg" alt="arrow" />
-                           <h1 className='font-normal'>Our Team</h1> 
+                           <h1 className='font-normal'>{prop.page}</h1> 
                         </button>
 
                 </div>
