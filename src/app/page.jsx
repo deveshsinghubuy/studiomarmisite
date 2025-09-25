@@ -12,11 +12,11 @@ const page = () => {
   return (
     <div>
       <Sec1st></Sec1st>
+      <Sec2nd ></Sec2nd>
       <Sec5th></Sec5th>
-      <Sec2nd></Sec2nd>
-      <Demo></Demo>
 
       <Sec3rd></Sec3rd>
+
       <Sec4th></Sec4th>
     </div>
   )

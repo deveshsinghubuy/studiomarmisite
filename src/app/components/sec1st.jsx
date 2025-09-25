@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 const Sec1st = () => {
   return (
-    <div className='flex justify-center'>
+    <div id='sec1st' className='flex justify-center'>
         <div className='max-w-[1900px] w-full flex justify-center'>
             <div className='w-full h-[600px] md:h-[800px] flex justify-center items-center bg-[url("/images/sec1BG.svg")] bg-center bg-cover bg-no-repeat '>
                 <div className='flex flex-col text-center items-center text-white'>

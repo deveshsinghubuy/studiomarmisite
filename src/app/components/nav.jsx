@@ -8,6 +8,10 @@ const Nav = () => {
     const [box, setbox] = useState(false);
     const wrapperRef = useRef(null);
     const [open, setOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
+
+
 
     const handelinput = (e) => {
         const value = e.target.value;
@@ -39,7 +43,6 @@ const Nav = () => {
         .filter(item => item.title.toLowerCase().includes(input.toLowerCase()))
         .slice(0, 6);
 
-    const [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
 
@@ -54,10 +57,21 @@ const Nav = () => {
         };
     }, []);
 
+    useEffect(() => {
+        const handleScroll = () => {
+            const sec = document.getElementById("sec2nd");
+            if (window.scrollY >= sec.offsetTop-90) setScrolled(true);
+            else setScrolled(false);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+        }, []);
+
     return (
         <div className='flex justify-center relative z-50'>
             <div className='max-w-[1900px] w-full flex justify-center fixed'>
-                <nav className='bg-[#CCCCCCCC] w-full py-4 px-2 md:p-4  flex justify-center'>
+                <nav className={`w-full py-4 px-2 md:p-4  flex justify-center transition-colors ${scrolled ? "bg-black" : "bg-[#CCCCCCCC]"}`}>
                     <div className='w-[100%] lg:w-[90%]  flex gap-10 lg:gap-20'> 
                         
                         <div className='flex flex-1 items-center'>
