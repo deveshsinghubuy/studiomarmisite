@@ -117,17 +117,17 @@ const Nav = () => {
                         </div>
 
                         {box && filteredData.length > 0 && (
-                            <div className='absolute top-25 left-1/4 rounded-lg bg-white w-[51%] shadow-2xl z-50 shadow-black p-6 box-border hidden xl:grid grid-cols-2 gap-8'>
+                            <div className='absolute h-[100px] md:h-auto overflow-y-auto xl:p-6 md:p-2 p-3 2xl:top-25 lg:top-18 md:top-33 top-35 2xl:left-[529px] xl:left-[400px] lg:left-[330px] md:left-10 left-5 rounded-sm md:rounded-lg bg-white 2xl:w-[41%] md:w-[41%] w-[90%] shadow-2xl z-50 shadow-black  box-border grid md:grid-cols-2 2xl:gap-4 xl:gap-y-1'>
                                 {filteredData.map((box, i) => ( 
                                     <div key={i} className='flex items-center gap-4 cursor-pointer hover:bg-gray-100 p-2'>
-                                        <div>
-                                            <Image src={box.img} alt="image" width={70} height={60}></Image>
+                                        <div className='w-[20%]'>
+                                            <Image src={box.img} alt="image" width={50} height={50}></Image>
                                         </div>
                                         <div>
-                                            <h1 className='text-[22px]'>{box.title}</h1>
-                                            <div className='flex gap-4 items-center'>
-                                                <h3 className='text-yellow-400 text-[20px]'>{box.price}</h3>
-                                                <h3 className='text-red-600 line-through text-[20px]'>{box.dprice}</h3>
+                                            <h1 className='2xl:text-[20px] xl:text-[14px] md:text-[12px] text-[16px]'>{box.title}</h1>
+                                            <div className='flex gap-4 items-center 2xl:text-[18px] xl:text-[14px] md:text-[10px] text-[14px]'>
+                                                <h3 className='text-neutral-600 '>{box.price}</h3>
+                                                <h3 className='text-neutral-300 line-through '>{box.dprice}</h3>
                                             </div>
                                         </div>
                                     </div>
