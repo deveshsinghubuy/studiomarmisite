@@ -9,22 +9,22 @@ import "swiper/css/pagination";
 import "../../globals.css"
 const Sec2testm = () => {
   return (
-    <div className='flex justify-center bg-[#F4F4F5] font-sans'>
-        <div className='max-w-[1900px] w-full flex justify-center'>
-            <div className='w-[73%] my-20'>
+    <div className='sec2nd flex justify-center bg-[#F4F4F5] font-sans'>
+        <div className='max-w-[2050px] w-full flex justify-center'>
+            <div className='w-[73%] md:w-[63%] lg:w-[83%] 2xl:w-[73%] my-10 lg:my-20'>
                 <div className='flex flex-col gap-4 justify-center items-center'>
                     <div className='flex justify-center items-center gap-3'>
                         <div className='w-10 h-[1px] bg-black'></div>
                         <h3 className='text-[20px] font-normal'>TESTIMONIAL</h3>
                         <div className='w-10 h-[1px] bg-black'></div>
                     </div>
-                    <h1 className='text-[36px] font-bold'>What Our Clients Say</h1>
+                    <h1 className='text-[30px] md:text-[36px] font-bold'>What Our Clients Say</h1>
                 </div>
              
                    
-                <div className='grid grid-cols-2 gap-5 mt-10'>
-                    <div className='shadow-md shadow-black/30'>
-                        <Image  src="/testimonials/Rectangle 44.png" alt="image" width={688} height={538}></Image>
+                <div className='grid lg:grid-cols-2  gap-5 mt-10'>
+                    <div>
+                        <Image  src="/testimonials/Rectangle 44.png" alt="image" width={788} height={788}></Image>
                     </div>
                     
                     <Swiper
@@ -38,7 +38,7 @@ const Sec2testm = () => {
                         
                         >
                      <SwiperSlide className='shadow-lg shadow-black/30'>
-                        <div className='flex flex-col justify-center h-full bg-white shadow-md shadow-black/30 px-13'>
+                        <div className='flex flex-col justify-center h-full bg-white shadow-md shadow-black/30 p-5 md:px-13 '>
                             <div className='flex justify-center'>
                                 <Image className='w-[26%]' src="/testimonials/Ellipse 4.png"  alt="image" width={151} height={151}></Image>
                             </div>
@@ -54,7 +54,7 @@ const Sec2testm = () => {
                      </SwiperSlide>
                     
                     <SwiperSlide className='shadow-lg shadow-black/30'>
-                        <div className='flex flex-col justify-center h-full bg-white  px-13'>
+                        <div className='flex flex-col justify-center h-full bg-white  p-5 md:px-13'>
                             <div className='flex justify-center'>
                                 <Image className='w-[26%]' src="/testimonials/Ellipse 4.png"  alt="image" width={151} height={151}></Image>
                             </div>
@@ -70,7 +70,7 @@ const Sec2testm = () => {
                      </SwiperSlide>
 
                      <SwiperSlide>
-                        <div className='flex flex-col justify-center h-full bg-white shadow-md shadow-black/40 px-13'>
+                        <div className='flex flex-col justify-center h-full bg-white shadow-md shadow-black/40 p-5 md:px-13'>
                             <div className='flex justify-center'>
                                 <Image className='w-[26%]' src="/testimonials/Ellipse 4.png"  alt="image" width={151} height={151}></Image>
                             </div>

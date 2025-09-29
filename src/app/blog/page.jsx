@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div>
         <Sec1ourteam title="BLOG" page="Blog"></Sec1ourteam>
-        <Sec2blog></Sec2blog>
+        <Sec2blog ></Sec2blog>
     </div>
   )
 }

@@ -61,7 +61,7 @@ const Sec3rd = () => {
 
   return (
     <div className='flex justify-center min-h-screen'>
-        <div className='max-w-[1900px] w-full flex justify-center bg-no-repeat bg-cover' style={{backgroundImage:"url('/images/sec3BG.svg')"}} >
+        <div className='max-w-[2050px] w-full flex justify-center bg-no-repeat bg-cover' style={{backgroundImage:"url('/images/sec3BG.svg')"}} >
             <div className='w-[95%] md:w-[90%] lg:w-[88%] mt-6 md:mt-10'>
                 
                 <div className='flex justify-center'>

@@ -70,8 +70,8 @@ const Sec2gallery = () => {
 
   ]
   return (
-    <div className='flex justify-center'>
-        <div className='max-w-[1900px] w-full flex justify-center'>
+    <div className='sec2nd flex justify-center'>
+        <div className='max-w-[2050px] w-full flex justify-center'>
           <div className='w-full mt-10 2xl:mt-20 mb-15 2xl:mb-35 '>
               <div className='md:flex justify-between items-center border-b border-[#D9D9D9] pb-6 xl:pb-8 2xl:pb-10 px-10 lg:px-28'>
                   <div>

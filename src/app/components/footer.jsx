@@ -12,7 +12,7 @@ const Footer = () => {
 
   return (
     <div className='flex justify-center'>
-        <div className='max-w-[1900px] w-full flex justify-center bg-black text-white'>
+        <div className='max-w-[2050px] w-full flex justify-center bg-black text-white'>
             <div className='p-10 md:p-20 flex flex-col items-center gap-5'>
                 <div>
                     <h1>Subscribe to our Newsletter</h1>

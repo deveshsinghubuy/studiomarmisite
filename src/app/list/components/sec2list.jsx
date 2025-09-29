@@ -52,8 +52,8 @@ const Sec2list = () => {
 
 
   return (
-    <div className='flex justify-center'>
-        <div className='max-w-[1900px] w-full flex justify-center font-sans '>
+    <div className='sec2nd flex justify-center'>
+        <div className='max-w-[2050px] w-full flex justify-center font-sans '>
             <div className='w-full'>
                 <div className=' flex justify-center md:flex-nowrap flex-wrap gap-6 bg-[#F4F4F5] md:gap-5 p-4 md:p-6 lg:p-10'>
                                         
@@ -123,22 +123,22 @@ const Sec2list = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className='flex flex-col justify-end'>
+                    <div className='flex flex-col justify-end w-[40%] md:w-auto'>
                         <div className='flex gap-2'>
                             <div className='cursor-pointer'><Image src="/list/plus.svg" alt='images' width={38} height={38}></Image></div>
                             <div className='cursor-pointer'><Image src="/list/minus.svg" alt='images' width={38} height={38}></Image></div>
                         </div>
                     </div>
                 </div>
-                <div className='p-20 py-10'>
-                    <div className='flex justify-between items-center'>
+                <div className='p-10 md:p-20 py-10'>
+                    <div className='flex gap-10 md:justify-between items-start'>
                         <h2>Showing 1–10 of 17 result</h2>
-                        <div className='flex justify-between items-center border border-[#A6A6A6] rounded-sm px-2 py-1'>
-                            <input className='outline-none w-40' type='text' placeholder='Default...' />
+                        <div className='flex gap-5 md:justify-between items-center border border-[#A6A6A6] rounded-sm px-2 py-1'>
+                            <input className='outline-none w-20 md:w-40' type='text' placeholder='Default...' />
                             <Image src="/images/downArrow.png" alt='images' width={12} height={20}></Image>
                         </div>
                     </div>
-                    <div className='grid grid-cols-3 gap-5 text-center mt-5
+                    <div className='grid grid-cols-2 md:grid-cols-3 gap-5 text-center mt-5
                     '>
                         {card.map((data,i)=>(
                             <div key={i}>

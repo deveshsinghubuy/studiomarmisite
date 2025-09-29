@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Sec3ourteam = () => {
   return (
     <div className='flex justify-center'>
-        <div className='max-w-[1900px] relative w-full flex justify-center bg-[url("/teams/sec3rdTeams.png")] bg-center bg-cover bg-no-repeat '>
+        <div className='max-w-[2050px] relative w-full flex justify-center bg-[url("/teams/sec3rdTeams.png")] bg-center bg-cover bg-no-repeat '>
             <div className='w-[80%] my-10 lg:my-20 z-10  font-sans'>
                    
                     <div className='md:flex justify-between items-center border-b border-[#D9D9D9] pb-6 xl:pb-8 2xl:pb-10'>

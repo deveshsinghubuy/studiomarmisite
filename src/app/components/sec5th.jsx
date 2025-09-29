@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Sec5th = () => {
   return (
     <div className='flex justify-center'>
-        <div className='max-w-[1900px] w-full flex justify-center my-10'>
+        <div className='max-w-[2050px] w-full flex justify-center my-10'>
 
                 <div className='w-[88%] h-auto'>
                     <div className='md:flex justify-between items-center'>
@@ -20,10 +20,13 @@ const Sec5th = () => {
                             <button className='text-[16px] mt-4 md:mt-0 cursor-pointer font-semibold bg-black text-white px-7 py-4 rounded-md'>Read More</button>
                         </div>
                     </div>
+                    
                     <div className='grid md:grid-cols-2 lg:grid-cols-3 mt-10 gap-10 md:gap-15 lg:gap-35'>
-                        <div className=' flex flex-col gap-7 '>
+                        
+                        {/* 1 */}
+                        <div className=' flex flex-col gap-4  md:gap-7 '>
                             <div>
-                                <Image className='w-[30%]' src="/tiles/image 8.svg" alt="image" width={50} height={50}></Image>
+                                <Image className='w-[25%]  md:w-[30%]' src="/tiles/image 8.svg" alt="image" width={50} height={50}></Image>
                             </div>
                             <h1 className='text-[24px] font-medium'>Carpets & Rugs</h1>
                             <div>
@@ -38,9 +41,10 @@ const Sec5th = () => {
                                 <div className='w-10 h-10 md:w-15 md:h-15 relative left-5 xl:left-8 2xl:left-7 rounded-full border border-black'></div>
                             </div>
                         </div>
-                        <div className=' flex flex-col gap-7 '>
+                        {/* 2 */}
+                        <div className=' flex flex-col gap-4  md:gap-7 '>
                             <div>
-                                <Image className='w-[30%]' src="/tiles/image 6.svg" alt="image" width={50} height={50}></Image>
+                                <Image className='w-[25%]  md:w-[30%]' src="/tiles/image 6.svg" alt="image" width={50} height={50}></Image>
                             </div>
                             <h1 className='text-[24px] font-medium'>Laminate Flooring</h1>
                             <div>
@@ -55,9 +59,11 @@ const Sec5th = () => {
                                 <div className='w-10 h-10 md:w-15 md:h-15 relative left-5 xl:left-8 2xl:left-7 rounded-full border border-black'></div>
                             </div>
                         </div>
-                        <div className=' flex flex-col gap-7 '>
+
+                        {/* 3 */}
+                        <div className=' flex flex-col gap-4  md:gap-7 '>
                             <div>
-                                <Image className='w-[30%]' src="/tiles/image 7.svg" alt="image" width={50} height={50}></Image>
+                                <Image className='w-[25%]  md:w-[30%]' src="/tiles/image 7.svg" alt="image" width={50} height={50}></Image>
                             </div>
                             <h1 className='text-[24px] font-medium'>Vinyl Flooring</h1>
                             <div>

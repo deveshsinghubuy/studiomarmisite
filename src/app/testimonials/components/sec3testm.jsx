@@ -38,8 +38,8 @@ const Sec3testm = () => {
   ]
   return (
     <div className='flex justify-center'>
-        <div className='max-w-[1900px] w-full flex justify-center'>
-          <div className='w-full mt-10 2xl:mt-20 mb-15 2xl:mb-35'>
+        <div className='max-w-[2050px] w-full flex justify-center'>
+          <div className='w-full my-10 2xl:mt-20 2xl:mb-35'>
               <div className='md:flex justify-between items-center border-b border-[#D9D9D9] pb-6 xl:pb-8 2xl:pb-10 px-10 lg:px-28'>
                   <div>
                       <div className='flex items-center md:pl-2  gap-3'>
@@ -54,10 +54,10 @@ const Sec3testm = () => {
                    </div>
                </div>
 
-               <div className='mt-10 px-10 lg:px-28 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-15 lg:gap-4'>
+               <div className='mt-10 px-10 lg:px-28 grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-15 lg:gap-4'>
                   {team.map((team,index)=>(
-                        <div key={index} className={`flex flex-col gap-10 relative ${index >3 ? "col-span-2":""} `}>
-                          <div >
+                        <div key={index} className={`flex flex-col gap-10 relative ${index >3 ? "md:col-span-2":""} `}>
+                          <div className=''>
                             <Image className='w-[100%]' src={team.img} alt="image" width={540} height={600} ></Image>
                           </div> 
 

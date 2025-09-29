@@ -1,21 +1,14 @@
 "use client";
-import { motion } from "framer-motion";
 
 export default function FadeScroll() {
   return (
-    <div className="space-y-40 p-10">
-      {Array.from({ length: 5 }).map((_, i) => (
-        <motion.div
-          key={i}
-          className="h-60 bg-blue-500 text-white flex items-center justify-center text-2xl rounded-2xl"
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: i * 0.2 }}
-          viewport={{ once: true }}
-        >
-          Animated Box {i + 1}
-        </motion.div>
-      ))}
+    <div className="flex justify-center items-center h-screen">
+        <div className="bg-red-300 w-[40%] h-[70vh] relative">
+            <div className="bg-yellow-400 w-40 h-40 rounded-full absolute "></div>
+            {/* <div className="bg-blue-400 w-40 h-40 rounded-full "></div> */}
+            {/* <div className="bg-orange-400 w-40 h-40 rounded-full "></div> */}
+            
+        </div>
     </div>
   );
 }

@@ -32,8 +32,8 @@ const Sec2portfolio = () => {
 
   ]
   return (
-    <div className='flex justify-center'>
-        <div className='max-w-[1900px] w-full flex justify-center'>
+    <div className='sec2nd flex justify-center'>
+        <div className='max-w-[2050px] w-full flex justify-center'>
           <div className='w-full mt-10 2xl:mt-20 mb-15 2xl:mb-25'>
              
               <div className='grid grid-cols-2 text-center  md:flex justify-center items-center pb-6 xl:pb-8 2xl:pb-10 px-10 lg:px-28 gap-4'>

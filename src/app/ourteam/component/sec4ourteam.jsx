@@ -21,7 +21,7 @@ const data =[
 const Sec4ourteam = () => {
   return (
     <div  className='flex justify-center font-sans'>
-        <div className='max-w-[1900px] w-full bg-[#2A3037] flex justify-center'>
+        <div className='max-w-[2050px] w-full bg-[#2A3037] flex justify-center'>
             <div className='w-full flex justify-center py-5 lg:py-10 2xl:py-12'>
                 <div className='w-[88%] grid grid-cols-2 gap-y-5 md:grid-cols-4 text-white '>
                    

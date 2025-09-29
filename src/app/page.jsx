@@ -11,6 +11,8 @@ import Demo from './components/demo'
 const page = () => {
   return (
     <div>
+
+      {/* <Demo></Demo> */}
       <Sec1st></Sec1st>
       <Sec2nd ></Sec2nd>
       <Sec5th></Sec5th>

@@ -33,7 +33,7 @@ const  Sec6ourteam = () => {
   ]
   return (
     <div className='flex justify-center'>
-        <div className='max-w-[1900px] w-full flex justify-center font-sans '>
+        <div className='max-w-[2050px] w-full flex justify-center font-sans '>
           <div className='w-full mt-10 2xl:mt-20 mb-15 2xl:mb-35 '>
               <div className='md:flex justify-between items-center px-10 lg:px-28'>
                   <div>
