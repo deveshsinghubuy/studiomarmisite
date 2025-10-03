@@ -1,12 +1,12 @@
 import React from 'react'
-import Sec5th from './components/sec5th'
-import Sec4th from './components/sec4th'
-import Sec2nd from './components/sec2nd'
-import Sec3rd from './components/sec3rd'
-import Nav from './components/nav'
-import Sec1st from './components/sec1st'
-import Footer from './components/footer'
-import Demo from './components/demo'
+import Sec5th from './components/Sec5th'
+import Sec4th from './components/Sec4th'
+import Sec2nd from './components/Sec2nd'
+import Sec3rd from './components/Sec3rd'
+import Nav from './components/Nav'
+import Sec1st from './components/Sec1st'
+import Footer from './components/Footer'
+import Demo from './components/Demo'
 
 const page = () => {
   return (

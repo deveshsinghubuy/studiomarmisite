@@ -1,6 +1,6 @@
 import React from 'react'
-import Sec1ourteam from '../ourteam/component/sec1ourteam'
-import Sec2portfolio from './componets/sec2portfolio'
+import Sec1ourteam from '../ourteam/component/Sec1ourteam'
+import Sec2portfolio from './componets/Sec2portfolio'
 
 const page = () => {
   return (

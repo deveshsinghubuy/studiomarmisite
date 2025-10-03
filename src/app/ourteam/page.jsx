@@ -1,13 +1,13 @@
 import React from 'react'
-import Sec2 from './component/sec2ourteam'
-import Sec3ourteam from './component/sec3ourteam'
-import Sec4ourteam from './component/sec4ourteam'
-import Sec5ourteam from './component/sec5ourteam'
+import Sec2 from './component/Sec2ourteam'
+import Sec3ourteam from './component/Sec3ourteam'
+import Sec4ourteam from './component/Sec4ourteam'
+import Sec5ourteam from './component/Sec5ourteam'
 import FaqClient from './component/Faq'
-import Sec6ourteam from './component/sec6ourteam'
-import Nav from '../components/nav'
-import Footer from '../components/footer'
-import Sec1ourteam from './component/sec1ourteam'
+import Sec6ourteam from './component/Sec6ourteam'
+import Nav from '../components/Nav'
+import Footer from '../components/Footer'
+import Sec1ourteam from './component/Sec1ourteam'
 
 const page = () => {
   return (

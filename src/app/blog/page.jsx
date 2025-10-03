@@ -1,6 +1,6 @@
 import React from 'react'
-import Sec2blog from './components/sec2blog'
-import Sec1ourteam from '../ourteam/component/sec1ourteam'
+import Sec2blog from './components/Sec2blog'
+import Sec1ourteam from '../ourteam/component/Sec1ourteam'
 
 const page = () => {
   return (

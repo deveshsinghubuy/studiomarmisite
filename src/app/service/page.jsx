@@ -1,9 +1,9 @@
 import React from 'react'
-import Sec3rdservice from './components/sec3rdservice'
-import Sec1ourteam from '../ourteam/component/sec1ourteam'
-import Sec3ourteam from '../ourteam/component/sec3ourteam'
-import Sec5ourteam from '../ourteam/component/sec5ourteam'
-import Sec6ourteam from '../ourteam/component/sec6ourteam'
+import Sec3rdservice from './components/Sec3rdservice'
+import Sec1ourteam from '../ourteam/component/Sec1ourteam'
+import Sec3ourteam from '../ourteam/component/Sec3ourteam'
+import Sec5ourteam from '../ourteam/component/Sec5ourteam'
+import Sec6ourteam from '../ourteam/component/Sec6ourteam'
 
 const page = () => {
   return (

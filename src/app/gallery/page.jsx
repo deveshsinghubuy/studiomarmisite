@@ -1,8 +1,8 @@
 import React from 'react'
-import Sec2gallery from './components/sec2gallery'
-import Nav from '../components/nav'
-import Footer from '../components/footer'
-import Sec1ourteam from '../ourteam/component/sec1ourteam'
+import Sec2gallery from './components/Sec2gallery'
+import Nav from '../components/Nav'
+import Footer from '../components/Footer'
+import Sec1ourteam from '../ourteam/component/Sec1ourteam'
 const page = () => {
   return (
     <div>
